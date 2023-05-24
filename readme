@@ -1,0 +1,35 @@
+DayZ Chernarus cfggameplay.json Object Spawn Array Code Snippets For Nature Overhaul Mod By Kaffeina & Don Sibley
+
+Using the File Browser or FTP Upload all of the .json files from Dons github to the /custom folder inside your Mission Folder. (On PC create a folder named "custom" inside your mission file.)
+
+(Please note that if uploading using the Nitrado Web Interface, limit your uploads to a maximum of 10 at the same time, to avoid errors.)
+
+(To easily download the files click on the green "code" button and "download zip" then extract onto your hard=drive.)
+
+https://github.com/DonSibleyGames/NatureOverhaul/tree/main
+
+Inside your cfggameplay.json file:
+
+Either use this line to replace the existing "objectspawnerarr" line:
+
+		"objectSpawnersArr": ["custom/Balota_circel.json","custom/Balota_city.json","custom/Bor.json","custom/Dolina.json","custom/DolinaSmallStreet.json","custom/Gorka.json","custom/Kamyshovo.json","custom/Khelm.json","custom/Komarovo.json","custom/Mogilevka.json","custom/Msta.json","custom/NadezhdinoandSmallCityRoad.json","custom/Novy_Sober.json","custom/Pavlovo.json","custom/Pogorevka.json","custom/Polana.json","custom/Pulkovo.json","custom/PustaandCircelChernos2.json","custom/Rogovo.json","custom/SmallCityNorthToBalota.json","custom/Solnichniy.json","custom/TrainStationChernogorsk.json","custom/Tulga.json","custom/Msta.json","custom/Vavilovo.json","custom/WindPowers.json"],
+		
+Or add these parts of the line to an existing "objectspawnerarr" line that already contains other custom json addresses. 
+
+		"custom/Balota_circel.json","custom/Balota_city.json","custom/Bor.json","custom/Dolina.json","custom/DolinaSmallStreet.json","custom/Gorka.json","custom/Kamyshovo.json","custom/Khelm.json","custom/Komarovo.json","custom/Mogilevka.json","custom/Msta.json","custom/NadezhdinoandSmallCityRoad.json","custom/Novy_Sober.json","custom/Pavlovo.json","custom/Pogorevka.json","custom/Polana.json","custom/Pulkovo.json","custom/PustaandCircelChernos2.json","custom/Rogovo.json","custom/SmallCityNorthToBalota.json","custom/Solnichniy.json","custom/TrainStationChernogorsk.json","custom/Tulga.json","custom/Msta.json","custom/Vavilovo.json","custom/WindPowers.json"
+
+Save, restart your server and the changes should take effect.
+
+Please remember that these files spawn a lot of objects, so we may be coming up to or exceed what the game engine is capable of, so errors, bugs and crashes are possible.
+
+Thanks to Don 
+
+https://youtu.be/89SCP6wxw5g
+
+& Kaffeina
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2106663048
+
+Cheers, Rob.
+
+https://youtube.com/@ScalespeederGaming
